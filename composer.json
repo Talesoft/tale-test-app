@@ -1,0 +1,33 @@
+{
+    "name": "talesoft/tale-test-app",
+    "type": "project",
+    "keywords": ["test", "app"],
+    "description": "A test app using the Tale Framework",
+    "license": "MIT",
+    "homepage": "http://docs.talesoft.io/tale-framework/tale.test.app",
+    "authors": [
+        {
+            "name": "Talesoft",
+            "homepage": "http://talesoft.io",
+            "email": "info@talesoft.io"
+        },
+        {
+            "name": "Torben Koehn",
+            "email": "tk@talesoft.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "psr/http-message": "~1.0",
+        "talesoft/tale-app": "~0.1",
+        "talesoft/tale-router": "~0.1",
+        "talesoft/tale-controller": "~0.1",
+        "symfony/yaml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tale\\Test\\App": ""
+        }
+    }
+}
